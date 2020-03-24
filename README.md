@@ -1,4 +1,4 @@
-spring-boot-react-maven-starter
+Spring-Boot-React-Maven
 -----
 
 This is a multi-module Spring Boot React Apache Maven starter app with good defaults. The react app is built using [create-react-app](https://github.com/facebookincubator/create-react-app).
@@ -35,7 +35,7 @@ This starter comes bundled with the following features:
 ## Running the backend for development mode
 
 There are multiple ways to run the backend. For development, you can use your favorite IDE and run the
-`com.example.app.Application`. As soon as your code compiles, Spring Boot DevTools will reload the code.
+`it.filippetti.app.Application`. As soon as your code compiles, Spring Boot DevTools will reload the code.
 
 You can also run the application using Maven.
 
