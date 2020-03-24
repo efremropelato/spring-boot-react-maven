@@ -8,9 +8,9 @@ class App extends Component {
   };
 
   async componentDidMount() {
-    const response = await fetch("http://localhost:8080/hello");
+    const response = await fetch("http://localhost:8080/api/hello");
     const message = await response.text();
-    this.setState({ message });
+    this.setState({ message: JSON.parse(message) });
   }
   
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">{this.state.message}</h1>
+          <h1 className="App-title">{this.state.message.hello}</h1>
           <h2>Welcome to Spring Boot React Starter!</h2>
         </div>
         <p className="App-intro">
