@@ -1,4 +1,4 @@
-package it.filippetti.app.resources;
+package it.ropelato.app.resources;
 
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

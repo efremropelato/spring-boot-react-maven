@@ -1,4 +1,4 @@
-package it.filippetti.app.resources;
+package it.ropelato.app.resources;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

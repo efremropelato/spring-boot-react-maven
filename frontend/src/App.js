@@ -19,7 +19,7 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">{this.state.message.hello}</h1>
-          <h2>Welcome to Spring Boot React Starter!</h2>
+          <h2>Welcome to Spring Boot React!!!</h2>
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.

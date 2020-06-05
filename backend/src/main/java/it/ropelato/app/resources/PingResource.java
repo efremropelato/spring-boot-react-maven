@@ -1,4 +1,4 @@
-package it.filippetti.app.resources;
+package it.ropelato.app.resources;
 
 import java.util.HashMap;
 import java.util.Map;
